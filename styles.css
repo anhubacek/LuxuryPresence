@@ -136,7 +136,7 @@ font-family: 'Tai Heritage Pro', serif; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.247);
+    background-color: rgba(255, 255, 255, 0.288);
     height: 300px;
     align-self: center;
     padding: 60px 120px;
@@ -451,56 +451,124 @@ line-height: 30px;
 }
 
 #contact footer{
-    padding: 50px 50px;
+    padding: 40px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-#contact footer .up h3{
+
+#contact footer .up{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Monrserrat', serif; 
+    letter-spacing: 2px;
+    color:rgb(11, 11, 22);
+}
+#contact footer .up i{
+    margin-right: 10px;
+}
+#contact footer .up .mail{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact footer .up .phone{
+    display: flex;
+    flex-direction: row;
+}
+#contact footer .up .adress{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact footer .middle i{
+    margin-right: 10px;
+}
+#contact footer .middle .title  h3{
     text-transform: uppercase;
     margin-left: 15px;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 4px;
-    font-weight: 500;
+    font-weight: 400;
     align-self: center;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 #contact footer .middle{
-    height: 250px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Monrserrat', serif; 
+    border-top: 1px solid rgb(11, 11, 22);
+    color:rgb(11, 11, 22);
+    padding-top:40px;
+    margin-bottom: 20px;
+}
+#contact footer .middle .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Monrserrat', serif; 
+    letter-spacing: 2px;
+}
+
+#contact footer .middle .info .mail{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact footer .middle .info .phone{
+    display: flex;
+    flex-direction: row;
+}
+#contact footer .middle .info .adress{
+    display: flex;
+    flex-direction: row;
 }
 #contact footer .down{
     width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 18px;
 }
 #contact footer .down .left h4{
     font-weight: 400;
 }
-#contact footer .down .left h4 span{
+#contact footer .down .left h4 span a{
     font-weight: 600;
-    color:rgba(21, 21, 36, 0.795);
+    color:rgba(21, 21, 36, 0.87);
+    text-decoration: none;
 }
-#contact footer .down .left h4 span:hover{
+#contact footer .down .left h4 span a:hover{
     color:rgb(11, 11, 22);
     cursor: pointer;
 }
 
+
 #contact footer .down .center h4{
     font-weight: 400;
 }
-#contact footer .down .center h4 span{
+#contact footer .down .center h4 span a{
     font-weight: 600;
-    color:rgba(21, 21, 36, 0.795);
+    color:rgba(21, 21, 36, 0.911);
+    text-decoration: none;
 }
-#contact footer .down .center h4 span:hover{
+#contact footer .down .center h4 span a:hover{
     color:rgb(11, 11, 22);
     cursor: pointer;
 }
 #contact footer .down .right{
     font-size: 24px;
-    color:rgba(21, 21, 36, 0.877);
+    color:rgba(21, 21, 36, 0.925);
     justify-content: flex-start;    
 }
 #contact footer .down .right i{
@@ -513,4 +581,31 @@ line-height: 30px;
 #contact footer .down .right i:hover{
     color:rgb(11, 11, 22);
     cursor: pointer;
+}
+
+#image .content{
+    height: 500px;
+    background-image: url("./images/pic33.jpg");
+    background-size: cover;
+    background-position: 50%;
+    border: 20px solid white;
+    
+}
+
+#image1 .content{
+    height: 500px;
+    background-image: url("./images/pic29.jpg");
+    background-size: cover;
+    background-position: 20%;
+    border: 20px solid white;
+    
+}
+
+#image2 .content{
+    height: 500px;
+    background-image: url("./images/pic31.jpg");
+    background-size: cover;
+    background-position: 50%;
+    border: 20px solid white;
+    
 }
