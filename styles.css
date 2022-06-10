@@ -92,12 +92,13 @@ font-family: 'Tai Heritage Pro', serif; */
     text-decoration: none;
     /* margin-right: 60px; */
     transition: 0.5s;
-    
+   
+
    
 }
 #home .content header nav ul li:hover{
-    text-decoration: underline;
-    
+    font-weight:600;
+    font-size: 16px;
     
 }
 #home .content header .brand{
@@ -178,32 +179,43 @@ font-family: 'Tai Heritage Pro', serif; */
 }
 
 #contact-me {
-    background-color:rgb(248, 244, 244);
-
-    color:rgb(29, 25, 19)
+    /* background-color:rgb(248, 244, 244); */
+    background-image: url("./images/pic27.jpg");
+    background-position: 80%;
+    background-size: cover;
+    
+    color: rgb(7, 7, 22);
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-top: 10px solid white;
 }
 #contact-me .content{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    padding: 30px 100px;
-    
+    justify-content:space-around;
+    padding: 20px 50px;
+    color: rgb(7, 7, 22);
 }
 #contact-me .content h2{
     font-size: 40px;
     font-family: 'Cormorant Garamond';
-    font-weight: 400;
+    font-weight: 500;
+   padding: 10px;
+   background-color:rgba(255, 255, 255, 0.733);
+    
+
 }
 
 #contact-me .content p{
     padding: 10px 15px;
-    border: 2px solid rgb(29, 25, 19);
+    border: 2px solid  rgb(7, 7, 22);
     align-self: center;
     cursor: pointer;
     transition: .5s;
+    background-color: white;
 }
 #contact-me .content p:hover{
-    background-color: rgb(29, 25, 19);
+    background-color:  rgb(7, 7, 22);
     color: white;
 }
 
@@ -221,7 +233,7 @@ font-family: 'Tai Heritage Pro', serif; */
     padding: 80px 150px;
 }
 #why-me .content h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 40px;
     text-align: center;
     font-family: 'Cormorant Garamond';
@@ -232,7 +244,10 @@ font-family: 'Tai Heritage Pro', serif; */
     align-self: center;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-   padding: 10px;
+   padding: 15px;
+
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 #why-me .content p{
@@ -268,7 +283,10 @@ font-family: 'Tai Heritage Pro', serif; */
     text-align: center;
     font-family: 'Cormorant Garamond';
     letter-spacing: 3px;
-    font-size: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+
 }
 #adversiting  .content .text p{
     margin: 0px;
@@ -300,14 +318,16 @@ font-family: 'Tai Heritage Pro', serif; */
 width: 500px;
 }
 #content  .content .text{
-width: 500px;
+width: 570px;
 margin-left: 50px;
 }
 #content  .content .text h3{
 text-align: center;
 font-family: 'Cormorant Garamond';
 letter-spacing: 3px;
-font-size: 50px;
+font-size: 40px;
+text-transform: uppercase;
+    font-weight: 200;
 }
 #content  .content .text p{
 margin: 0px;
@@ -349,7 +369,7 @@ line-height: 30px;
 #search .content{
     background-color: rgb(11, 11, 22);
     color:white;
-    border: 20px solid white;
+    /* border: 20px solid white; */
     padding: 50px 50px;
     display: flex;
     flex-direction: column;
@@ -361,9 +381,11 @@ line-height: 30px;
     text-align: center;
     font-family: 'Cormorant Garamond';
     letter-spacing: 3px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
     }
 
     #search  .content .text p{
@@ -388,7 +410,7 @@ line-height: 30px;
     #social-marketing .content{
         background-color: rgb(11, 11, 22);
         color:white;
-        border: 20px solid white;
+        /* border: 20px solid white; */
         padding: 50px 50px;
         display: flex;
         flex-direction: column;
@@ -400,9 +422,11 @@ line-height: 30px;
         text-align: center;
         font-family: 'Cormorant Garamond';
         letter-spacing: 3px;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
         margin-bottom: 20px;
+        text-transform: uppercase;
+    font-weight: 200;
         }
     
         #social-marketing  .content .text p{
@@ -415,4 +439,78 @@ line-height: 30px;
         align-self: center;
         
         }
+#contact{
+    height: 400px;
+    width: 100%;
+    color:rgb(11, 11, 22);
+    background-image: url("./images/pic28.jpg");
+    background-size: cover;
+    background-position: 50%;
+    /* background-color: rgb(206, 200, 188); */
+    border: 20px solid white;
+}
+
+#contact footer{
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#contact footer .up h3{
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    align-self: center;
+    text-align: center;
+}
+
+#contact footer .middle{
+    height: 250px;
+}
+#contact footer .down{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contact footer .down .left h4{
+    font-weight: 400;
+}
+#contact footer .down .left h4 span{
+    font-weight: 600;
+    color:rgba(21, 21, 36, 0.795);
+}
+#contact footer .down .left h4 span:hover{
+    color:rgb(11, 11, 22);
+    cursor: pointer;
+}
+
+#contact footer .down .center h4{
+    font-weight: 400;
+}
+#contact footer .down .center h4 span{
+    font-weight: 600;
+    color:rgba(21, 21, 36, 0.795);
+}
+#contact footer .down .center h4 span:hover{
+    color:rgb(11, 11, 22);
+    cursor: pointer;
+}
+#contact footer .down .right{
+    font-size: 24px;
+    color:rgba(21, 21, 36, 0.877);
+    justify-content: flex-start;    
+}
+#contact footer .down .right i{
+    margin-right: 18px;
+    align-self: center;
+    margin-bottom: 10px;
     
+}
+
+#contact footer .down .right i:hover{
+    color:rgb(11, 11, 22);
+    cursor: pointer;
+}
