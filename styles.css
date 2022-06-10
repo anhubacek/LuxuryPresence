@@ -17,21 +17,24 @@ font-family: 'Tai Heritage Pro', serif; */
 
 #home{
     background-image: url("./images/fondo-inicio2.jpg");
-   
+
     height: 100vh;
     background-size: cover;
     background-position: center, center;
 }
 
 #home .content{
-    background-image: url("./images/pic9.jpg");
+    background-image: url("./images/pic10.jpg");
+   
     background-size:cover;
+    background-position: 80%;
     display: flex;
     flex-direction: column;
     height: 100vh;
+ 
 }
 #home .content header{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     z-index: 100;
     top: 0;
@@ -66,7 +69,8 @@ font-family: 'Tai Heritage Pro', serif; */
 
 #home .content header nav ul #menu-icon{
     cursor: pointer;
-    font-size: 22px;
+    font-size: 20px;
+   
 }
 #home .content header nav ul li a{
     color:rgb(29, 25, 19);
@@ -80,14 +84,23 @@ font-family: 'Tai Heritage Pro', serif; */
 }
 #home .content header .brand{
     margin-left: 20px;
+    
+}
+#home .content header .brand #name{
+    font-size:16px ;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond';
+    margin-bottom: 5px;
+    letter-spacing: 2px;
 }
 #home .content header .brand p{
     text-transform: uppercase;
-    margin: 0px;
-    font-size: 12px;
-    letter-spacing: 3px;
+    margin-left: 15px;
+    font-size: 10px;
+    letter-spacing: 4px;
     font-weight: 500;
 }
+
 
 
 #home .content .presentation{
@@ -98,10 +111,10 @@ font-family: 'Tai Heritage Pro', serif; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.37);
+    background-color: rgba(255, 255, 255, 0.39);
     height: 300px;
     align-self: center;
-    padding: 50px;
+    padding: 50px 100px;
  
 
 }
@@ -113,8 +126,72 @@ font-family: 'Tai Heritage Pro', serif; */
         letter-spacing: 3px;
         color: rgb(29, 25, 19);
         font-weight: 200;
+        text-transform: uppercase;
        
 }
 #home .content .presentation p{
     font-size: 25px;
+}
+
+#contact-me {
+    background-color:rgb(248, 244, 244);
+
+    color:rgb(29, 25, 19)
+}
+#contact-me .content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 30px 100px;
+    
+}
+#contact-me .content h2{
+    font-size: 40px;
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+}
+
+#contact-me .content p{
+    padding: 10px 15px;
+    border: 2px solid rgb(29, 25, 19);
+    align-self: center;
+    cursor: pointer;
+    transition: .5s;
+}
+#contact-me .content p:hover{
+    background-color: rgb(29, 25, 19);
+    color: white;
+}
+
+#why-me{
+    background-color: rgb(7, 7, 22);
+    height: 500px;
+    color:white;
+}
+
+#why-me .content{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+}
+#why-me .content h2{
+    font-size: 40px;
+    margin-bottom: 65px;
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 200;
+    width: 800px;
+    align-self: center;
+   
+}
+
+#why-me .content p{
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 30px;
+    
 }
