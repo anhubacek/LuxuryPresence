@@ -241,14 +241,14 @@ font-family: 'Tai Heritage Pro', serif; */
     margin: 0px;
     font-size: 14px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 30px;
     
 }
 #adversiting {
         background-color: white;
         height: 500px;
-        color:rgb(7, 7, 22);
+        color:rgb(3, 3, 14);
     }
 #adversiting  .content{
         display: flex;
@@ -279,14 +279,14 @@ font-family: 'Tai Heritage Pro', serif; */
     margin: 0px;
     font-size: 14px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 30px;
 }
 
 #content {
     background-color: white;
     height: 700px;
-    color:rgb(7, 7, 22);
+    color:rgb(3, 3, 14);
     
 }
 #content  .content{
@@ -320,7 +320,7 @@ text-transform: uppercase;
 margin: 0px;
 font-size: 14px;
 text-align: center;
-font-weight: 200;
+font-weight: 300;
 line-height: 30px;
 }
 
@@ -379,7 +379,7 @@ line-height: 30px;
     margin: 0px;
     font-size: 14px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 30px;
     
     align-self: center;
@@ -420,7 +420,7 @@ line-height: 30px;
         margin: 0px;
         font-size: 14px;
         text-align: center;
-        font-weight: 200;
+        font-weight: 300;
         line-height: 30px;
         
         align-self: center;
